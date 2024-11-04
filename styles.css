@@ -1,0 +1,130 @@
+body {
+  background-color: #E8D6CB; /* Fallback color */
+  font-family: 'Poppins', sans-serif;
+  color: #172e44;
+  background-image: url(images/pexels-mdsnmdsnmdsn-1831234.jpg); /* Correct syntax for background image */
+  background-size: cover; /* Ensures the image covers the entire body */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-position: center; /* Centers the background image */
+}
+
+div {
+  border: 2px solid #172e44;
+  border-radius: 22px;
+  margin: 45px auto 45px auto;
+  width: 600px;
+  text-align: center;
+  box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25), 0 8px 16px -8px rgba(0, 0, 0, 0.3);
+  background-color: #E8D6CB;
+}
+
+.profile-pic {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.div1 {
+  margin: 0 auto;
+  width: 600px;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+ul {
+  list-style-position: inside;
+  text-align: center;
+}
+
+li {
+  list-style-position: inside;
+  margin: 5px 0;
+  text-align: left;
+}
+
+.text {
+  padding: 15px;
+}
+
+#icons {
+  color: #4381C1;
+  letter-spacing: 20px;
+  font-size: 50px;
+  border: none;
+  box-shadow: none;
+}
+
+/* #hobbies-list {
+  width: 300px;
+  text-align: center;
+  border: none;
+  box-shadow: none;
+
+} */
+
+#linkedin {
+  color: #4381C1;
+}
+
+
+.div2 {
+  text-align: center;
+  display: flex; /* Use flexbox */
+  flex-wrap: wrap; /* Allow wrapping to the next line */
+  justify-content: space-around; /* Space items evenly */
+}
+
+.div2 h2 {
+  width: 100%; /* Take full width of the parent */
+  text-align: center; /* Center align text */
+  margin: 20px 0; /* Margin to space from top and bottom */
+  font-size: 24px; /* Adjust font size as needed */
+}
+
+.div2 {
+  text-align: center;
+  display: flex; /* Use flexbox */
+  flex-wrap: wrap; /* Allow wrapping to the next line */
+  justify-content: center; /* Center items in the container */
+}
+
+.hobbies-box {
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  border: 2px solid #172e44; /* Optional: border for each box */
+  border-radius: 12px; /* Rounded corners */
+  margin: 10px; /* Space around each box */
+  display: flex; /* Use flexbox for inner content */
+  flex-direction: column; /* Stack icon and text */
+  align-items: center; /* Center align items */
+  justify-content: center; /* Center content vertically */
+  background-color: #E8D6CB; /* Background color for the box */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional shadow effect */
+}
+
+.hobbies-box p {
+  margin: 10px 0 0; 
+  font-size: 18px; 
+}
+
+
+a:hover{
+  color: #4381C1;
+}
+
+.gallerypic {
+  width: auto;
+  height: 250px;
+  margin-bottom: 45px;
+
+}
+
+.gallerypic:hover {
+  transform: scale(3); 
+  z-index: 10; 
+}
